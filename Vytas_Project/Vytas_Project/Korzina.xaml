@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Vytas_Project.Korzina">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Ваш заказ" HorizontalOptions="Center" FontSize="22"/>
+            <ListView x:Name="foodlist" ItemsSource="{Binding}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding index}" FontSize="Medium" />
+                                    <Label Text="{Binding count}" FontSize="Medium" />
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Label Text="Если вы хотите получить уведомление на ваш email напишите ее ниже: " HorizontalOptions="Center" FontSize="16"/>
+            <Entry Text="" Placeholder="Email" x:Name="mail" HorizontalOptions="Center" FontSize="22"/>
+            <Label Text="" x:Name="Cost" HorizontalOptions="Center" FontSize="22"/>
+            <Button Text="Оформить заказ" VerticalOptions="EndAndExpand" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

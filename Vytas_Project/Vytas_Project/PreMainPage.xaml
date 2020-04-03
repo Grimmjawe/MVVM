@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Vytas_Project.PreMainPage" Title="KFC">
+    <ContentPage.Content>
+        <StackLayout x:Name="SL">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="200" />
+                </Grid.RowDefinitions>
+                <Image Grid.Row="0" Source="mainwall.jpg" />
+                <Label Grid.Row="1" Text="Нажмите на экран что бы начать делать заказ!" FontSize="30" TextColor="White"
+                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="Red" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

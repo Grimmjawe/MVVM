@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "tOl3cWmKenjLlfEd5uqmvl2rwU6tzDxBONkML9vHXSZbEWgSjcATBMikd87wtDIRiZraxXHmi+4ZLZ1V8CiXuQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vitjo\\Desktop\\Vytas_Project\\Vytas_Project\\Vytas_Project\\Vytas_Project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vitjo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\vitjo\\.nuget\\packages\\sqlite-net-pcl\\1.6.292\\sqlite-net-pcl.1.6.292.nupkg.sha512",
+    "C:\\Users\\vitjo\\.nuget\\packages\\sqlitepclraw.bundle_green\\1.1.13\\sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
+    "C:\\Users\\vitjo\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",
+    "C:\\Users\\vitjo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\vitjo\\.nuget\\packages\\xamarin.essentials\\1.1.0\\xamarin.essentials.1.1.0.nupkg.sha512",
+    "C:\\Users\\vitjo\\.nuget\\packages\\xamarin.forms\\4.5.0.396\\xamarin.forms.4.5.0.396.nupkg.sha512"
+  ],
+  "logs": []
+}
